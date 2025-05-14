@@ -51,11 +51,17 @@ Para empezar se crea un archivo .txt en la carpeta del proyecto, luego se proced
 # Estructura del proyecto
 
 .
+
 ├── Movies.py # Código principal del bot
+
 ├── secretKeys.env # Variables de entorno
+
 ├── requirements.txt # Lista de dependencias
+
 ├── Readme.md # Documentación del proyecto
+
 ├── .gitignore # Archivos y carpetas ignorados por Git
+
 └── env/ # Entorno virtual
 
 Desarrollado por [Edwin Burgos - "Ingeniero de sistemas"] como un proyecto de aprendizaje e integración de APIs con bots de Telegram.
