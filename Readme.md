@@ -13,7 +13,9 @@ Se ingresa en la app de Telegram y en el buscador se coloca BotFather, se ingres
 # Uso del bot
 
 /start – Inicia la conversación con el bot
+
 /buscarlist <palabra> – Busca una lista de películas/series con la palabra clave
+
 /buscar <nombre exacto> – Busca detalles de una película o serie específica
 
 # Creación del archivo secretKeys
@@ -27,16 +29,23 @@ Para empezar se crea un archivo .txt en la carpeta del proyecto, luego se proced
 ## 🚀 Funcionalidades
 
 📌 Buscar información detallada de una película o serie (`/buscar`)
+
 📌 Buscar una lista de coincidencias por palabra clave (`/buscarlist`)
+
 📌 Ver título, año, calificación IMDB y descripción traducida
+
 📌 Recibir la imagen del póster (si está disponible)
 
 ## 🛠️ Tecnologías utilizadas
 
 📌 Python
+
 📌 [python-telegram-bot](https://github.com/python-telegram-bot/python-telegram-bot)
+
 📌 OMDB API
+
 📌 Deep Translator (Google Translate)
+
 📌 dotenv
 
 # Estructura del proyecto
