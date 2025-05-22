@@ -62,7 +62,6 @@ async def search(update: Update, context: ContextTypes.DEFAULT_TYPE):
             f"📊 IMDB: {data['imdbRating']}/10\n"
             f"📄 {plot_es}"
         )
-
         poster_url = data.get("Poster", None)
         await update.message.reply_text(msg, parse_mode="Markdown")# Envía ese mensaje al usuario, usando formato Markdown (para poner el título en negrita)
         # Enviar el póster: Si hay una URL válida del póster, el bot también lo envía como imagen
