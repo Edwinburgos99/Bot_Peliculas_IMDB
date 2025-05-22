@@ -1,8 +1,8 @@
-# Ignora entorno virtual
-env/
-
-# Ignora archivos sensibles
+# Archivos sensibles
 secretKeys.env
+
+# Entorno virtual
+env/
 
 # Archivos de Python no deseados
 __pycache__/
