@@ -1,19 +1,9 @@
-# Ignora entornos virtuales
+# Ignora entorno virtual
 env/
 
-# Ignora archivos de configuración sensibles
+# Ignora archivos sensibles
 secretKeys.env
 
-# Archivos de caché de Python
+# Archivos de Python no deseados
 __pycache__/
-*.py[cod]
-
-# Archivos del sistema
-.DS_Store
-Thumbs.db
-
-# Archivos de logs
-*.log
-
-# Archivos de compilación
 *.pyc
